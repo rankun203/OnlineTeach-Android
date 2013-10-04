@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
+import android.view.View;
 
 public class GateActivity extends Activity {
 
@@ -29,5 +30,9 @@ public class GateActivity extends Activity {
 	return true;
     }
 
+    public void btn1Click (View view) {
+        Intent loginIntent = new Intent(this, Login.class);
+        startActivity(loginIntent);    	
+    }
 }
 

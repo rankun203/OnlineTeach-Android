@@ -4,6 +4,9 @@ gen/
 .settings/
 assets/
 bin/
+.idea/
 
 .classpath
 .project
+
+*.iml
