@@ -24,7 +24,7 @@
             android:name="org.rankun.onlineteach.android.Login"
             android:label="@string/title_activity_login"
             android:parentActivityName="org.rankun.onlineteach.android.GateActivity"
-            android:windowSoftInputMode="adjustResize|stateVisible" >
+            android:windowSoftInputMode="adjustPan|stateVisible" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="org.rankun.onlineteach.android.GateActivity" />

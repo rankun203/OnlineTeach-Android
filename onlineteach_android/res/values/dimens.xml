@@ -6,4 +6,8 @@
 	<dimen name="main_tips_padding_top">10dp</dimen>
 	<dimen name="main_tips_padding_left">20dp</dimen>
 	<dimen name="main_tips_padding_right">20dp</dimen>
+
+    <dimen name="main_tips1_size">24sp</dimen>
+    <dimen name="main_tips1_margin_top">40dp</dimen>
+    <dimen name="main_login_form_padding">20dp</dimen>
 </resources>

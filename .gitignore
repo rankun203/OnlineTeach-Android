@@ -5,6 +5,7 @@ gen/
 assets/
 bin/
 .idea/
+out/
 
 .classpath
 .project
