@@ -1,5 +1,9 @@
 androlog/
 target/
+gen/
+.settings/
+assets/
+bin/
 
 .classpath
 .project
