@@ -9,6 +9,7 @@
 		<version>0.1</version>
 	</parent>
 
+
 	<groupId>org.rankun.onlineteach</groupId>
 	<artifactId>onlineteach_android</artifactId>
 	<version>0.1</version>
