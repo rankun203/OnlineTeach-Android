@@ -18,9 +18,6 @@ public class GateActivity extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        
-        Intent loginIntent = new Intent(this, Login.class);
-        startActivity(loginIntent);
     }
 
     @Override

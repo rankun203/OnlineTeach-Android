@@ -2,18 +2,22 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="org.rankun.onlineteach.android"
     android:versionCode="1"
-    android:versionName="0.1" >
+    android:versionName="0.1">
 
     <uses-sdk
         android:minSdkVersion="8"
         android:targetSdkVersion="18" />
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
     <application
+        android:name=".AndroidApplication"
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
-        <activity android:name="org.rankun.onlineteach.android.GateActivity" >
+        android:theme="@style/AppTheme">
+        <activity android:name="org.rankun.onlineteach.android.GateActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -24,7 +28,7 @@
             android:name="org.rankun.onlineteach.android.Login"
             android:label="@string/title_activity_login"
             android:parentActivityName="org.rankun.onlineteach.android.GateActivity"
-            android:windowSoftInputMode="adjustPan|stateVisible" >
+            android:windowSoftInputMode="adjustPan|stateVisible">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="org.rankun.onlineteach.android.GateActivity" />

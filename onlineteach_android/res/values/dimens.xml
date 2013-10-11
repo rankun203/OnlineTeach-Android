@@ -3,11 +3,11 @@
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
-	<dimen name="main_tips_padding_top">10dp</dimen>
-	<dimen name="main_tips_padding_left">20dp</dimen>
-	<dimen name="main_tips_padding_right">20dp</dimen>
+	<dimen name="login_tips_padding_top">10dp</dimen>
+	<dimen name="login_tips_padding_left">20dp</dimen>
+	<dimen name="login_tips_padding_right">20dp</dimen>
 
-    <dimen name="main_tips1_size">24sp</dimen>
-    <dimen name="main_tips1_margin_top">40dp</dimen>
+    <dimen name="login_tips1_size">24sp</dimen>
+    <dimen name="login_tips1_margin_top">40dp</dimen>
     <dimen name="main_login_form_padding">20dp</dimen>
 </resources>

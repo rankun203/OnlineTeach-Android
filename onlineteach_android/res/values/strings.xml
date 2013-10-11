@@ -5,7 +5,9 @@
     <string name="action_settings">设置</string>
     <string name="hello">欢迎使用 在线教学系统</string>
     <string name="main_login">登录</string>
-    <string name="main_tips1_">登录到在线教学系统</string>
-    <string name="main_tips2_">输入你在电脑上使用的角色和用户名密码</string>
+    <string name="login_tips1_">登录到在线教学系统</string>
+    <string name="login_tips2_">选择你的角色，输入[用户名|学号]和密码</string>
+    <string name="main_tip_student_">选择你的角色，输入学号和密码</string>
+    <string name="main_tip_teacher_">选择你的角色，输入用户名和密码</string>
 
 </resources>

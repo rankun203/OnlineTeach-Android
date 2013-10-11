@@ -3,6 +3,7 @@
     <string name="title_activity_login">登录</string>
 
     <!-- Strings related to login -->
+    <string name="prompt_student_id">学号</string>
     <string name="prompt_username">用户名</string>
     <string name="prompt_password">密码</string>
     <string name="action_forgot_password">忘记密码</string>
@@ -12,6 +13,7 @@
     <string name="error_invalid_email">用户名不正确</string>
     <string name="error_invalid_password">密码太短</string>
     <string name="error_incorrect_password">密码不正确</string>
+    <string name="error_student_id">学号只能为连续的数字</string>
     <string name="error_field_required">必填</string>
     <string name="txt_student">学生</string>
     <string name="txt_teacher">教师</string>
